@@ -1,0 +1,153 @@
+!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Onzon Cyril – Asperges fraîches</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8fef8;
+      color: #2e3a2e;
+    }
+    header {
+      position: relative;
+      height: 400px;
+      background: url('https://i.ibb.co/rGjGCj44/1200px20170409-133708-2.jpg$0') center center/cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+    header .overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.2);
+      z-index: 1;
+      pointer-events: none;
+    }
+    header .content {
+      position: relative;
+      z-index: 2;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      margin: 0;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+    header p {
+      font-size: 1.3rem;
+      margin: 10px 0 0 0;
+      font-weight: 300;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    }
+
+    .divider {
+      height: 10px;
+      background: linear-gradient(to right, #6aaa64, #a8d08d);
+      border: none;
+      margin: 0;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #4a7c39;
+      margin-bottom: 15px;
+      border-bottom: 3px solid #68a357;
+      padding-bottom: 8px;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .about-img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      margin-top: 10px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 720px;
+      border-radius: 15px;
+      border: none;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 10px;
+      background-color: #d4e8c5;
+      color: #3e4f2e;
+      font-weight: 500;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        height: 300px;
+      }
+      header h1 {
+        font-size: 2.2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      iframe {
+        height: 600px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Onzon Cyril</h1>
+      <p>Asperges fraîches & locales</p>
+    </div>
+  </header>
+
+  <hr class="divider" />
+
+  <main>
+    <section>
+      <h2>À propos</h2>
+      <p>Producteur passionné, Onzon Cyril cultive les asperges vertes et blanches avec soin et tradition. Découvrez la saveur de la fraîcheur locale dans chaque botte.</p>
+      <img class="about-img" src="https://i.ibb.co/JRrSHK39/aspargo-verde-e-branco-38903655-jpg.webp" alt="Récolte d'asperges fraîches" />
+    </section>
+
+    <section>
+      <h2>Réservation</h2>
+      <p>Réservez vos asperges fraîches pour le jour souhaité :</p>
+      <iframe src="https://forms.gle/LcEWyBNMpdYPw3pU6" title="Formulaire de réservation Onzon Cyril">Chargement du formulaire…</iframe>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Onzon Cyril – Asperges fraîches. Tous droits réservés.
+  </footer>
+
+</body>
+</html>
